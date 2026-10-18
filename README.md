@@ -40,12 +40,12 @@ I will try to provide all the materials and files needed to build this yourself,
 
 The finished product has to comply with the following requirements:
 
-1. **Reliable measurements.** The system must reliably gather temperature, humidity and pressure data and push those values to the Home Assistant server.
-2. **Timekeeping.** The system must pull the date and time from the Home Assistant server every given number of hours and keep that value with an RTC, so the time stays valid if the connection to the server is lost.
-3. **Secure connection.** The system must be able to establish, keep and recover a secure connection with the Home Assistant server, in such a way that it cannot be used as an entry point for malicious access to the LAN.
-4. **Battery life.** The final unit must be rechargeable and hold its charge for at least 15 days, so keeping it running does not become a chore. Low-power components and code must be considered throughout the design.
-5. **Home-buildable.** With the exception of the PCB and the electronic components on it, the product must be entirely manufacturable at home using basic DIY tools (soldering iron, 3D printer, screwdrivers, etc.).
-6. **Simple integration.** Integration with Home Assistant must be as simple and intuitive as with any other ESP32-based device.
+1. The system must reliably gather temperature, humidity and pressure data and push those values to the Home Assistant server.
+2. The system must pull the date and time from the Home Assistant server every given number of hours and keep that value with an RTC, so the time stays valid if the connection to the server is lost.
+3. The system must be able to establish, keep and recover a secure connection with the Home Assistant server, in such a way that it cannot be used as an entry point for malicious access to the LAN.
+4. The final unit must be rechargeable and hold its charge for at least 15 days, so keeping it running does not become a chore. Low-power components and code must be considered throughout the design.
+5. With the exception of the PCB and the electronic components on it, the product must be entirely manufacturable at home using basic DIY tools (soldering iron, 3D printer, screwdrivers, etc.).
+6. Integration with Home Assistant must be as simple and intuitive as with any other ESP32-based device.
 
 ## Planned hardware and software
 
@@ -73,6 +73,8 @@ Wokwi does not include a BME280 model, so three other sensors stand in for it du
 | DS18B20 | Temperature | 1-Wire (with a 4.7 kΩ pull-up) |
 | DHT22 | Temperature and humidity | Single-wire, own protocol |
 | BMP180 | Temperature and pressure | I2C |
+
+You can see the prototype at any given stage of development in [this link](https://wokwi.com/projects/478161791096587265)
 
 The physical build replaces all three with the BME280, which is also an I2C device.
 
