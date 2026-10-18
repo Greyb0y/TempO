@@ -23,7 +23,7 @@
 
 ## Prelude
 
-The name _TempO_ comes from two very simple ideas: **Temp**erature and **O**pen-source. It also comes form "_Tempo_" as in _time_, since my interest in these systems was sparked a Subject of mine named _Embedded Real **Time** Systems_. 
+The name _TempO_ comes from two very simple ideas: **Temp**erature and **O**pen-source. It also comes from "_tempo_" as in _time_, since my interest in these systems was sparked a Subject of mine named _Embedded Real **Time** Systems_. 
 
 _TempO_ is what it says it is, and it does not pretend to do anything else: it is a homemade temperature, humidity and pressure station for Home Assistant. How you deploy it or scale it is up to you.
 
