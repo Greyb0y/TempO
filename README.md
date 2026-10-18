@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="TempO banner" width="100%">
+  <img src="assets/V2_mug_banner.png" alt="TempO banner" width="100%">
 </p>
 
 <p align="center">
