@@ -27,9 +27,9 @@ The name _TempO_ comes from two very simple ideas: **Temp**erature and **O**pen-
 
 _TempO_ is what it says it is, and it does not pretend to do anything else: it is a homemade temperature, humidity and pressure station for Home Assistant. How you deploy it or scale it is up to you.
 
-The project was born from the need to learn the ESP32 platform and embedded systems. The best way I found to learn about them was to build something myself, from start to end, especially now that we all have the internet and AI on our side.
+The project was born from the need to learn the ESP32 platform and embedded systems. The best way I found to learn about them was to build something myself, from start to end (Since Uni didn't teach me shit), especially now that we all have the internet and AI on our side.
 
-I run a small homelab at home and recently deployed Home Assistant, partly out of curiosity and partly to replace the SmartLife app I used to switch my server's outlet. From there, going further into home automation and developing a small environmental sensor from scratch felt like a natural next step.
+I run a small homelab at home and recently deployed Home Assistant, partly out of curiosity and partly to replace that privacy nightmare of an app called [_SmartLife_](https://smartlifeapp.org/) I used to switch my server's outlet. From there, going further into home automation and developing a small environmental sensor from scratch felt like a natural next step.
 
 In terms of technical difficulty, this project is roughly the equivalent of a high-school side project, and I am aware of that. Even so, it covers topics I had no previous idea about: programming in C++, dealing with I2C, handling analog and digital inputs, circuit design and CAD assembly.
 
