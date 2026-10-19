@@ -43,8 +43,10 @@ I will try to provide all the materials and files needed to build this yourself,
 <details>
   <summary>Show images</summary>
 
-  <img src="assets/DesignAndRender.png" alt="Image 1" width="400">
-  <img src="path/to/Drafts.png" alt="Image 2" width="400">
+  <img src="assets/DesignAndRender.png" alt="Shapr3D Design">
+  
+  <img src="assets/Drafts.png" alt="Draft">
+  
 </details>
 
 
