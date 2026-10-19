@@ -13,7 +13,7 @@
 **A homemade, open-source temperature, humidity and pressure station for Home Assistant, built on the ESP32.**
 
 ## Contents
-
+ 
 - [Prelude](#prelude)
 - [Drafts and Concepts](#Drafts-and-concepts)
 - [System requirements](#system-requirements)
@@ -71,9 +71,11 @@ These are the current plans and may change as the project moves forward.
 | Display | E-ink panel (SPI) | Refreshed periodically; keeps the image without power |
 | Power | Rechargeable LiPo or Li-ion cell with a charging circuit | Whichever turns out cheaper and more stable for the purpose |
 | Timekeeping | RTC (internal or external, to be decided) | Synchronised from Home Assistant |
-| Firmware | ESPHome | Native Home Assistant integration |
+| Firmware | Custom C++ firmware (Arduino framework) | Written from scratch; talks to Home Assistant over MQTT |
 | PCB design | KiCad | Simple two-layer board |
 | Enclosure | CAD design, 3D printed | Printable at home |
+
+The firmware is written from scratch, since the goal of this project is to learn how an embedded system works, from the sensor registers to the communication with the server. Because the project is open source, and configuring a device through ESPHome is much easier, I will also provide ESPHome configuration files for anyone who wants to go down that route.
 
 ## Prototyping in the Wokwi simulator
 
@@ -96,10 +98,10 @@ The physical build replaces all three with the BME280, which is also an I2C devi
 - [x] Requirements defined
 - [x] Sensor reading simulated in Wokwi (DS18B20, DHT22, BMP180)
 - [ ] Breadboard prototype with real hardware (ESP32 and BME280)
-- [ ] ESPHome firmware and Home Assistant integration
+- [ ] Custom firmware and Home Assistant integration
 - [ ] E-ink display
 - [ ] Deep sleep and power optimisation (15-day target)
-- [ ] Secure connection (encrypted API, network isolation)
+- [ ] Secure connection (encrypted connection, network isolation)
 - [ ] Schematic and PCB design in KiCad
 - [ ] Enclosure design and 3D printing
 - [ ] Assembly guide and final documentation
