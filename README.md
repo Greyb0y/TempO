@@ -15,6 +15,7 @@
 ## Contents
 
 - [Prelude](#prelude)
+- [Drafts and Concepts](#Drafts-and-concepts)
 - [System requirements](#system-requirements)
 - [Planned hardware and software](#planned-hardware-and-software)
 - [Prototyping in the Wokwi simulator](#prototyping-in-the-wokwi-simulator)
