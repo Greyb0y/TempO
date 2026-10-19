@@ -37,6 +37,16 @@ I will try to provide all the materials and files needed to build this yourself,
 
 > [!WARNING]
 > **Disclaimer:** Given my limited prior experience in this field, some design and technical decisions were made with an AI-assisted workflow, which means parts of this project were done **with the help of AI**. If that conflicts with your views on LLM usage, please read no further.
+>
+# Drafts and concepts
+
+<details>
+  <summary>Show images</summary>
+
+  <img src="assets/DesignAndRender.png" alt="Image 1" width="400">
+  <img src="path/to/Drafts.png" alt="Image 2" width="400">
+</details>
+
 
 ## System requirements
 
